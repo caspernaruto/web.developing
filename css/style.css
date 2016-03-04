@@ -764,6 +764,7 @@ Parallax
   width:220px;
 }
 .mails {
+  cursor:pointer;
   width:137px;
   margin:Auto;
   display:block;
