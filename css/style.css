@@ -358,10 +358,23 @@ hr {
 .boxed-grey {
 	background: #f9f9f9;
 	padding: 20px;
+  transition:all .3s ease-in-out;
+  -webkit- transition:all .3s ease-in-out;
+  -o- transition:all .3s ease-in-out;
+  -moz- transition:all .3s ease-in-out;
+}
+.boxed-grey:hover {
+  background:#D2527F;
+  border:2px solid #fff;
+
+}
+.boxed-grey:hover h5 {
+  color: #fff;
 }
 
 .team h5 {
 	margin-bottom: 10px;
+  color:rgb(102,102,102);
 }
 
 .team p.subtitle {
@@ -476,7 +489,7 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 
 .company-social li{
     display: inline-block;
-	margin:0 !important;
+	margin:0 0 0 -4px !important;
 	padding:0;
 }
 
@@ -491,26 +504,35 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
     text-align: center;
     background: #3bbec0;
 	color: #fff;
-    -webkit-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
 }
 .company-social a i{
 	text-align: center;
 	margin:0;
 	padding:0;
+  font-size:18px;
 }
-.company-social .social-facebook a{background: #3873ae;}
+.company-social .social-facebook a{background: #22A7F0;}
+.company-social .social-vk a{background: #22313F;}
 .company-social .social-twitter a{background: #62c6f8;}
+.company-social .social-tumblr a{background: #2C3E50;}
 .company-social .social-dribble a{background: #d74980;}
 .company-social .social-deviantart a{background: #8da356;}
 .company-social .social-google a{background: #000;}
-.company-social .social-vimeo a{background: #51a6d3;}
+.company-social .social-vimeo a{background: #1BA39C;}
+.company-social .social-youtube a{background:#336E7B;}
+.company-social .social-youtube a:hover{opacity:.9;}
 .company-social .social-facebook a:hover{background: #4893ce;}
+.company-social .social-vk a:hover{opacity:.9;}
 .company-social .social-twitter a:hover{background: #82e6ff;}
+.company-social .social-tumblr a:hover{opacity:.9;}
 .company-social .social-dribble a:hover{background: #f769a0;}
 .company-social .social-deviantart a:hover{background: #adc376;}
 .company-social .social-google a:hover{background: #333;}
-.company-social .social-vimeo a:hover{background: #71c6f3;}
+.company-social .social-vimeo a:hover{opacity:.9;}
 
 
 
@@ -553,6 +575,12 @@ Parallax
 	background-image: url(../img/parallax/2.jpg);
 
 }
+
+.feed {
+  -webkit-transition: all .1s ease-out .1s;
+  -moz-transition: all .1s ease-out .1s;
+  -o- transition: all .1s ease-out .1s;
+  transition: all .1s ease-out .1s;}
 
 #parallax2:after  {	
 	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC);
@@ -765,7 +793,7 @@ Parallax
 }
 .mails {
   cursor:pointer;
-  width:137px;
+  width:200px;
   margin:Auto;
   display:block;
   text-align:center;
@@ -778,13 +806,9 @@ Parallax
   text-align:center;
   width:220px;
 }
-.vks {
-  width:220px;
-  margin:Auto;
-}
 .contt {
   margin:auto;
-  width:85px;
+  width:115px;
 }
 }
 @media (max-width:768px) {
