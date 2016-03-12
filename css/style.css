@@ -120,7 +120,7 @@ a:focus {
 }
 
 .navbar-custom ul.nav ul.dropdown-menu li a {
-	padding: 10px 20px;
+	padding: 20px 20px;
 }
 
 .navbar-custom ul.nav ul.dropdown-menu li a:hover {
@@ -348,6 +348,11 @@ hr {
 .intro .slogan h4 {
 	color: #fff;
 	text-shadow: -1px 1px 1px #000;
+}
+
+.logo {
+  width:200px;
+  height:40px;
 }
 
 
@@ -777,6 +782,9 @@ Parallax
     .intro-text {
         font-size: 25px;
     }
+.someshit {
+  margin-bottom:50px;
+}
 .someshit:nth-child(1) {
   float:left;
   margin-left:20%;
